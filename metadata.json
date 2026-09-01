@@ -1,0 +1,6 @@
+{
+  "name": "Expense Segregator",
+  "description": "AI-powered Personal Expense Intelligence Dashboard with OCR extraction, ML category prediction, and anomaly detection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
