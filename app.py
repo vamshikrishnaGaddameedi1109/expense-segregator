@@ -343,7 +343,9 @@ with tab_dash:
             hole=0.55,
             color="Category",
             color_discrete_map=color_map,
-            hover_data={"Amount": ":.2f", "Percentage": ":.1f%"}
+            # Amount and percentage are already formatted in hovertemplate below.
+            # Do not pass hover_data as a dict here because Plotly Express can
+            # raise AttributeError when a color field is also used.
         )
         fig_pie.update_traces(
             textposition='inside',
